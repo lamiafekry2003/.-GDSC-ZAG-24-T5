@@ -1,0 +1,13 @@
+
+.heig{
+    height:400px ;
+}
+.tit{
+    height: 100px;
+    overflow: hidden;
+}
+.des{
+    height: 280px;
+    color: rgb(160, 157, 157);
+    overflow: hidden;
+}

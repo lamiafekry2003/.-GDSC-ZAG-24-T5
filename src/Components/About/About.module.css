@@ -1,0 +1,92 @@
+.about {
+    background-color: #0dcaf0;
+    min-height: 700px;
+    text-align: center;
+  }
+   .about h2 {
+    margin: 250px auto 0;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+  }
+   .hrlin i {
+    text-align: center;
+    color: white;
+    margin: 25px auto;
+    font-size: 20px;
+  }
+  .hrlin{
+    position: relative;
+  }
+  .hrlin::before,
+  .hrlin::after{
+      content: '';
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: white;
+      top: 50%;
+      position: absolute;
+  }
+  
+  .hrlin::before{
+      content: "";
+      left: 42%;
+  }
+  .hrlin::after{
+      content: "";
+     right:42%;
+  }
+  @media screen and (max-width: 1400px) {
+      .hrlin::before{
+          content: "";
+          left: 40%;
+      }
+      .hrlin::after{
+         right:40%;
+      }
+  }
+  @media screen and (max-width: 992px) {
+      .hrlin::before{
+          content: "";
+          left: 35%;
+      }
+      .hrlin::after{
+         right:35%;
+      }
+  }
+  @media screen and (max-width: 767px) {
+      .hrlin::before{
+          content: "";
+          left: 30%;
+      }
+      .hrlin::after{
+         right:30%;
+      }
+  }
+  @media screen and (max-width: 475px) {
+      .hrlin::before{
+          content: "";
+          left: 25%;
+      }
+      .hrlin::after{
+         right:25%;
+      }
+  }
+  @media screen and (max-width: 376px) {
+      .hrlin::before{
+          content: "";
+          left: 19%;
+      }
+      .hrlin::after{
+         right:19%;
+      }
+      /* .about h2 {
+          margin: 50% auto 0;
+        } */
+  
+  }
+  p{
+      color: white;
+  }
+  
